@@ -1,0 +1,922 @@
+{
+  "general": {
+    "by": "Door",
+    "changedBy": "Gewijzigd door",
+    "type": "Type",
+    "code": "Code",
+    "period": "Periode",
+    "period.to": "tot",
+    "now": "Nu",
+    "action": "Actie",
+    "actions": "Acties",
+    "add": "Toevoegen",
+    "date": "Datum",
+    "performedBy": "Uitgevoerd door",
+    "status": "Status",
+    "comments": "Opmerkingen",
+    "futureDate": "Datum in de toekomst",
+    "beginDate": "Begindatum",
+    "endDate": "Einddatum",
+    "creationDate": "Aanmaakdatum",
+    "expirationDate": "Vervaldatum",
+    "expirationBeginDate": "Verval begindatum",
+    "expirationEndDate": "Verval einddatum",
+    "newExpirationDate": "Nieuwe vervaldatum",
+    "notApplied": "Niet toegepast",
+    "notAppliedSelect": "Niet toegepast (selecteer om toe te passen)",
+    "user": "Gebruiker",
+    "operator": "Operator",
+    "name": "Naam",
+    "to": "naar",
+    "description": "Omschrijving",
+    "details": "Details",
+    "download": "Download",
+    "downloadAs": "Download als {format}",
+    "image": "Afbeelding",
+    "keywords": "Trefwoorden",
+    "distanceFilter": "Afstand",
+    "orderBy": "Sorteer op",
+    "orderBy.relevance": "Relevantie",
+    "print": "Afdrukken",
+    "printed": "Afgedrukt",
+    "all": "Alle",
+    "copyToClipboard": "Kopiëren naar klembord",
+    "copyToClipboard.done": "Gekopieerd!",
+    "showFilters": "Filters weergeven",
+    "hideFilters": "Filters verbergen",
+    "moreFilters": "Meer filters",
+    "showMoreFilters": "Toon meer filters",
+    "lessFilters": "Minder filters",
+    "showLessFilters": "Toon minder filters",
+    "enabled": "Ingeschakeld",
+    "disabled": "Uitgeschakeld",
+    "back": "Terug",
+    "previous": "Vorige",
+    "next": "Volgende",
+    "view": "Bekijk",
+    "skip": "Overslaan",
+    "viewHistory": "Geschiedenis bekijken",
+    "edit": "Bewerken",
+    "confirm": "Bevestigen",
+    "cancel": "Annuleer",
+    "close": "Sluiten",
+    "submit": "Verzenden",
+    "finish": "Voltooien",
+    "remove": "Verwijderen",
+    "remove.confirm": "Weet u zeker dat u item {item} wilt verwijderen?",
+    "remove.done": "Het item {item} is verwijderd",
+    "remove.tooltip": "Verwijder {item}",
+    "remoteAddress": "IP-adres",
+    "save": "Opslaan",
+    "addNew": "Nieuw",
+    "yes": "Ja",
+    "no": "Nee",
+    "notSet": "Niet ingesteld",
+    "share": "Delen",
+    "map": "Kaart",
+    "map.view": "Bekijk de kaart",
+    "noOptionsSelected": "Geen opties geselecteerd",
+    "noOptionSelected": "Geen optie geselecteerd",
+    "removeItemConfirm": "Weet u zeker dat u dit item wilt verwijderen?",
+    "removeItemDone": "Het item is verwijderd",
+    "currency": "Valuta",
+    "images": "Afbeeldingen",
+    "usersOfBroker": "Gebruikers van de makelaar",
+    "sendMedium": {
+      "email": "E-mail",
+      "sms": "SMS"
+    },
+    "sendCode": "Stuur code",
+    "sentCodeTo": "De verificatiecode is verzonden naar {to}",
+    "reloadPage": "Pagina herladen",
+    "sessionExpired": {
+      "title": "Sessie verlopen",
+      "message": "U bent uitgelogd.<br>U kunt dezelfde pagina blijven bekijken of nu opnieuw inloggen.",
+      "loginAgain": "Opnieuw inloggen"
+    },
+    "datePart": {
+      "long": {
+        "year": "Jaar",
+        "month": "Maand",
+        "day": "Dag"
+      }
+    },
+    "month": {
+      "long": {
+        "jan": "Januari",
+        "feb": "Februari",
+        "mar": "Maart",
+        "apr": "April",
+        "may": "Mei",
+        "jun": "Juni",
+        "jul": "Juli",
+        "aug": "Augustus",
+        "sep": "September",
+        "oct": "Oktober",
+        "nov": "November",
+        "dec": "December"
+      },
+      "short": {
+        "jan": "Jan",
+        "feb": "Feb",
+        "mar": "Mrt",
+        "apr": "Apr",
+        "may": "Mei",
+        "jun": "Jun",
+        "jul": "Jul",
+        "aug": "Aug",
+        "sep": "Sep",
+        "oct": "Okt",
+        "nov": "Nov",
+        "dec": "Dec"
+      }
+    },
+    "timeField": {
+      "pattern": "{amount} {field}",
+      "plural": {
+        "days": "Dagen",
+        "hours": "Uren",
+        "millis": "Milliseconden",
+        "minutes": "Minuten",
+        "months": "Maanden",
+        "seconds": "Seconden",
+        "weeks": "Weken",
+        "years": "Jaren"
+      },
+      "singular": {
+        "day": "Dag",
+        "hour": "Uur",
+        "milli": "Milliseconde",
+        "minute": "Minuut",
+        "month": "Maand",
+        "second": "Seconde",
+        "week": "Week",
+        "year": "Jaar"
+      }
+    },
+    "weekday": {
+      "min": {
+        "sun": "Zo",
+        "mon": "Ma",
+        "tue": "Di",
+        "wed": "Wo",
+        "thu": "Do",
+        "fri": "Vr",
+        "sat": "Za"
+      },
+      "long": {
+        "sun": "Zondag",
+        "mon": "Maandag",
+        "tue": "Dinsdag",
+        "wed": "Woensdag",
+        "thu": "Donderdag",
+        "fri": "Vrijdag",
+        "sat": "Zaterdag"
+      }
+    },
+    "range": {
+      "fromTo": "Van {min} tot {max}",
+      "from": "Van {min}",
+      "to": "Tot {max}"
+    },
+    "rangeTo": "tot",
+    "fileSize": {
+      "b": "{n} bytes",
+      "k": "{n}kB",
+      "m": "{n}MB"
+    },
+    "results": {
+      "withTotal": "Zoekresultaten {first} - {last} van {total}",
+      "noTotal": "Het tonen van {first} - {last} resultaten",
+      "none": "Geen resultaten overeenkomen met de zoekcriteria",
+      "nextXxs": "Volgende",
+      "previousXxs": "Vorige"
+    },
+    "geolocation": {
+      "kilometersFrom": "km van",
+      "milesFrom": "mijl van",
+      "current": "Huidige locatie",
+      "myAddress": "Mijn adres"
+    }
+  },
+  "error": {
+    "general": "Er is een onverwachte fout opgetreden bij het verwerken van uw verzoek",
+    "serverOffline": "Er kan geen contact met de server worden gemaakt.<br>Probeer het Gelieve later opnieuw.",
+    "invalidRequest": "Er kan geen verbinding met de server gemaakt worden. Zorg ervoor dat u met het internet verbonden bent en probeert u het over enkele seconden opnieuw.",
+    "networkInaccessible": "Dit netwerk is niet toegankelijk voor de opgegeven gebruiker",
+    "queryParse": "Ongeldige trefwoorden",
+    "uploadSizeExceeded": "Het geüploade bestand is groter dan de maximale toegestane grootte van {size}",
+    "maxItems": "Kan niet meer dan {max} elementen toevoegen",
+    "validation": "De actie kan niet worden verwerkt, omdat er validatiefouten zijn",
+    "staleEntity": "Deze gegevens kunnen niet worden opgeslagen omdat het is gewijzigd door iemand anders.<br>Laad de pagina opnieuw en herstart de bewerking.",
+    "notFound": {
+      "location": "De locatie die u hebt getypt of geprobeerd te openen is niet gevonden",
+      "type": "De gevraagde gegevens kunnen niet worden gevonden: {type}",
+      "typeKey": "De gevraagde gegevens kunnen niet worden gevonden: {type} met de sleutel {key}"
+    },
+    "login": "De opgegeven inlognaam of wachtwoord is onjuist. Alstublieft, probeer het opnieuw.",
+    "remoteAddressBlocked": "Uw IP-adres is geblokkeerd voor het overschrijden van inlog pogingen",
+    "permission": "Je hebt niet de voldoende rechten om de gevraagde actie uit te voeren",
+    "unauthorized": {
+      "address": "Het is vanaf uw locatie niet toegestaan om in te loggen",
+      "url": "Toegang is niet toegestaan voor deze URL"
+    },
+    "loggedOut": "De verbinding is verbroken. Gelieve in te loggen opnieuw in te loggen.",
+    "securityAnswer": {
+      "invalid": "Het veiligheid antwoord is ongeldig",
+      "disabled": "Bij overschrijding van het aantal antwoordpogingen, dit verzoek is afgebroken. Neem dan contact op met de administratie"
+    },
+    "illegalAction": "De actie die u probeert uit te voeren, is ongeldig",
+    "field": {
+      "invalid": "Dit veld is ongeldig",
+      "required": "Dit is een verplicht veld",
+      "passwordsMatch": "De wachtwoorden komen niet overeen",
+      "minLength": "Moet ten minste {min} tekens",
+      "number": "Ongeldige numerieke waarde",
+      "date": "Ongeldige datum",
+      "minDate": "Moet {min} of na",
+      "maxDate": "Moet {max} of voor"
+    }
+  },
+  "menu": {
+    "register": "Registreren",
+    "logout": "Uitloggen",
+    "home": "Start",
+    "banking": "Geldzaken",
+    "banking.accountsSummary": "Overzicht van de rekeningen",
+    "banking.payUser": "Betaling aan gebruiker",
+    "banking.paySystem": "Betaling aan systeem",
+    "banking.paySelf": "De betaling zelf",
+    "banking.scheduledPayments": "Geautoriseerde betalingen",
+    "banking.authorizations": "Betalingsautorisaties",
+    "banking.boughtVouchers": "View buys",
+    "operators": "Operators",
+    "operators.operators": "Operators",
+    "operators.register": "Registreer operator",
+    "operators.groups": "Operator groepen",
+    "marketplace": "Marktplaats",
+    "marketplace.directory": "Bedrijven",
+    "marketplace.businessDirectory": "Gebruikers",
+    "marketplace.advertisements": "Advertenties",
+    "personal": "Persoonlijk",
+    "personal.viewProfile": "Mijn profiel",
+    "personal.editProfile": "Profiel bewerken",
+    "personal.contacts": "Contacten",
+    "personal.password": "Wachtwoord",
+    "personal.passwords": "Wachtwoorden",
+    "personal.agreements": "Overeenkomsten",
+    "personal.references": "Referenties",
+    "content": "Informatie"
+  },
+  "login": {
+    "message": "U kunt inloggen met uw gebruikersnaam en wachtwoord",
+    "disconnected": "U is verbroken.<br>Gelieve in te loggen om te geven de gevraagde pagina.",
+    "principal": "Gebruiker",
+    "forgotPassword": "Wachtwoord vergeten?",
+    "register": "Geen gebruiker? Registreer u dan hier."
+  },
+  "password": {
+    "confirmationMessage": "Levering uw {passwordType} om deze handeling te bevestigen",
+    "confirm.noPassword": "Om te bevestigen dat u nodig {passwordType}, maar je hebt geen",
+    "confirm.mode.device": "Mobiele telefoon",
+    "confirm.otp.noMediums": "Om er zeker van u een bevestiging wachtwoord, maar er zijn geen mogelijke media om het te ontvangen.<br>Neem dan contact op met de administratie.",
+    "confirm.otp.active": "U kunt gebruik maken van de eerder verzonden bevestiging wachtwoord of een nieuwe aanvragen",
+    "confirm.otp.request": "Gelieve te vragen om een bevestiging wachtwoord hieronder in om te bevestigen",
+    "otp.sent": "Het wachtwoord is verstuurd naar {dest}",
+    "oldPassword": "Oud wachtwoord",
+    "newPassword": "Nieuw wachtwoord",
+    "passwordConfirmation": "Bevestiging van het wachtwoord",
+    "error": {
+      "disabled": "Uw wachtwoord is uitgeschakeld. Neem dan contact op met de administratie.",
+      "reset": "Uw wachtwoord is hersteld.",
+      "indefinitelyBlocked": "Uw wachtwoord is uitgeschakeld door de overschrijding van het maximale aantal pogingen Gelieve contact op te nemen met de administratie.",
+      "temporarilyBlocked": "Uw wachtwoord wordt tijdelijk geblokkeerd door overschrijding van het maximaal aantal pogingen. Probeer het later opnieuw.",
+      "expired": "Uw wachtwoord is verlopen. Neem dan contact op met de administratie.",
+      "pending": "Uw wachtwoord is in afwachting van de activering. Neem contact op met de administratie.",
+      "invalid": "Wachtwoord type: {type} is ongeldig"
+    },
+    "title": {
+      "change.self": "Uw wachtwoord wijzigen",
+      "manage.single.self": "Het beheer van uw wachtwoord",
+      "manage.multiple.self": "Het beheren van uw wachtwoorden"
+    },
+    "forgotten": {
+      "principal": "Gebruiker",
+      "sendMedium": "Ontvang code via",
+      "generated.message": "Zodra u verzendt, wordt een nieuw wachtwoord gegenereerd en verzonden naar uw e-mail adres",
+      "generated.done.email": "U ontvangt binnenkort een e-mail met uw nieuwe wachtwoord.",
+      "manual.done": "Uw wachtwoord is met succes gewijzigd. U kunt het nu gebruiken om in te loggen.",
+      "title.changePassword": "Uw wachtwoord wijzigen"
+    },
+    "expired": {
+      "preface": "Uw {type} is verlopen.",
+      "message.manual": "Om door te kunnen gaan, moet u deze wijzigen.",
+      "message.generated": "Om verder te gaan, een nieuwe waarde moet worden gegenereerd.<br>Deze waarde wordt slechts eenmaal weergegeven, dus zorg ervoor dat u ofwel te onthouden of op te schrijven.",
+      "generatedValue": "De waarde voor {type} is <data>{value}</data>.<br>Deze waarde zal niet opnieuw worden weergegeven, dus zorg ervoor dat u ofwel te onthouden of op te schrijven.",
+      "generateNew": "Het genereren van nieuwe",
+      "changed": "Uw {type} is gewijzigd"
+    },
+    "statusSince": "Sinds {date}",
+    "status": {
+      "active": "Actief",
+      "disabled": "Geblokkeerd",
+      "expired": "Verlopen",
+      "indefinitelyBlocked": "Geblokkeerd",
+      "neverCreated": "Nooit gecreëerd",
+      "pending": "In behandeling",
+      "temporarilyBlocked": "Tijdelijk geblokkeerd"
+    },
+    "action": {
+      "change": "Aanpassen",
+      "change.done": "Uw {type} is gewijzigd",
+      "change.generated.confirm": "Dit zal het genereren van een nieuwe {type}, en de waarde zal weergegeven worden slechts eenmaal. Bent u zeker?",
+      "change.generated.done": "De waarde voor {type} is <data>{value}</data>.<br>Zorg ervoor om het te onthouden, want het zal niet opnieuw worden weergegeven.",
+      "unblock": "Deblokkeren",
+      "activate": "Activeren",
+      "activate.confirm": "Dit zal activeren {type}, en de gegenereerde waarde zal weergegeven worden slechts eenmaal. Bent u zeker?",
+      "enable": "Inschakelen",
+      "disable": "Blokkeer",
+      "resetAndSendEmail": "Reset en verstuur per e-mail",
+      "resetAndSendEmail.confirm": "Weet u zeker dat u {type} wilt resetten en per e-mail naar de gebruiker wilt versturen?",
+      "resetAndSendEmail.done": "{type} is gereset en per e-mail verzonden"
+    }
+  },
+  "pendingAgreements": {
+    "title": {
+      "previouslyAccepted": "Bijgewerkte overeenkomst",
+      "firstTime": "Registratie overeenkomst"
+    },
+    "mobileTitle": {
+      "previouslyAccepted": "Bijgewerkte overeenkomst",
+      "firstTime": "Registratie overeenkomst"
+    },
+    "message.previouslyAccepted": "De registratie overeenkomst is bijgewerkt.<br><br>Om verder te kunnen gaan, moet u akkoord gaan met de nieuwe voorwaarden.",
+    "message.firstTime": "Om uw registratie te voltooien moet u akkoord gaan met deze voorwaarden.",
+    "agree": "Ik ga akkoord met de volgende registratieovereenkomsten: {agreements}",
+    "preface": "Ik verklaar hierbij dat ik het volgende heb gelezen en ermee akkoord ga:"
+  },
+  "securityQuestion": {
+    "question": "Beveiligingsvraag",
+    "answer": "Uw antwoord"
+  },
+  "dashboard": {
+    "quickAccess": "Snelle toegang",
+    "action": {
+      "account": "Rekening",
+      "accounts": "Rekeningen",
+      "payUser": "Betaal",
+      "paySystem": "Euro's kopen",
+      "contacts": "Contacten",
+      "directory": "Bedrijven",
+      "editProfile": "Profiel bewerken",
+      "password": "Wachtwoord",
+      "passwords": "Wachtwoorden"
+    },
+    "accounts": "Rekeningen",
+    "accountStatus": "Rekening status",
+    "latestAds": "Nieuwste advertenties",
+    "latestUsers": "Nieuwe bedrijven"
+  },
+  "account": {
+    "number": "Rekeningnummer",
+    "minAmount": "Van het bedrag",
+    "maxAmount": "Bedrag",
+    "direction": "Betaaltype",
+    "incoming": "Inkomende",
+    "outgoing": "Uitgaande",
+    "balance": "Saldo",
+    "reservedAmount": "Gereserveerd bedrag",
+    "availableBalance": "Beschikbaar saldo",
+    "negativeLimit": "Negatieve limiet",
+    "positiveLimit": "Positieve limiet",
+    "balanceOn": "Saldo op {date}",
+    "noAccounts": "U heeft geen rekeningen",
+    "system": "Systeemrekening",
+    "mobileTitle": {
+      "accountsSummary": "Overzicht van de rekeningen"
+    },
+    "title": {
+      "accountsSummary": "Overzicht van de rekeningen"
+    },
+    "paymentLimits": {
+      "title": {
+        "list": "Rekeningen betalingslimieten"
+      }
+    }
+  },
+  "transaction": {
+    "number": "Transactie nummer",
+    "amount": "Bedrag",
+    "type": "Type betaling",
+    "fromTo": "Van / tot",
+    "from": "Van",
+    "to": "Tot",
+    "receiver": "Ontvanger",
+    "senderOrReceiver": "Afzender of ontvanger",
+    "account": "Rekening",
+    "fromAccount": "Van rekening",
+    "toAccount": "Naar rekening",
+    "toUser": "Naar gebruiker",
+    "requiresAuthorization": "De betaling zal vereisen een goedkeuring",
+    "appliedFees": "Heffingen",
+    "totalAmount": "Totaal bedrag",
+    "dueAmount": "Te betalen bedrag",
+    "dueDate": "Vervaldag",
+    "nextOccurrence": "Volgende gebeurtenis",
+    "channel": "Kanaal",
+    "receivedBy": "Ontvangen door",
+    "chargebackOf": "Terugvordering van",
+    "chargedBackBy": "Terug in rekening gebracht door",
+    "authorizationComments": "Toestemming reacties",
+    "accountBalance": "Rekening saldo",
+    "installments": "Termijnbetalingen",
+    "installmentNumber": "Nummer",
+    "noAccounts": "U heeft geen rekeningen om de betaling uit te voeren",
+    "noTypes": "Er zijn geen mogelijke betaling soorten",
+    "noTypesSelection": "Er zijn geen mogelijke betaling typen van dit account naar de geselecteerde gebruiker",
+    "scheduling": "Agendering",
+    "scheduling.direct": "Betaal nu",
+    "scheduling.single": "Geagendeerde",
+    "scheduling.installments": "Maandelijkse termijnen",
+    "scheduling.recurring": "Herhaal maandelijks",
+    "schedulingStatus": {
+      "direct": "Directe betaling",
+      "scheduledToDate": "Gepland {date}",
+      "openInstallments": "{count} termijnen, volgende op {dueDate}",
+      "closedInstallments": "{count} termijnen",
+      "closedRecurring": "Gesloten terugkerende betaling",
+      "canceledRecurring": "Geannuleerd terugkerende betaling",
+      "openRecurring": "Terugkerende betaling, volgende op {date}"
+    },
+    "recurringPayment": "Periodieke betalingen",
+    "recurringPayment.nowManual": "Herhaald totdat deze handmatig wordt geannuleerd, vanaf nu",
+    "recurringPayment.dateManual": "Herhaald totdat deze handmatig wordt geannuleerd, te beginnen bij {date}",
+    "recurringPayment.nowFixed": "Herhalingen {count} tijden, vanaf nu",
+    "recurringPayment.dateFixed": "Herhalingen {count} keer, te beginnen bij {date}",
+    "installmentsCount": "Aantal termijnen",
+    "firstInstallment": "Eerste termijnbetaling",
+    "firstInstallment.date": "Eerste termijn datum",
+    "repeatUntil": "Herhaal dit tot",
+    "repeatUntil.manual": "Handmatig is geannuleerd",
+    "repeatUntil.fixed": "Vast aantal exemplaren",
+    "occurrencesCount": "Aantal gebeurtenissen",
+    "firstOccurrence": "Eerste gebeurtenis",
+    "firstOccurrence.date": "Datum van de eerste gebeurtenis",
+    "processed": "De betaling is met succes verwerkt",
+    "processed.withNumber": "De betaling met een transactienummer {number} was succesvol verwerkt",
+    "pending": "De betaling werd voorgelegd voor verdere autorisatie",
+    "pending.withNumber": "De betaling met een transactienummer {number} werd voorgelegd voor verdere autorisatie",
+    "done.view": "Bekijk betaling",
+    "done.new": "Nieuwe betaling",
+    "status": {
+      "open": "Geldig",
+      "closed": "Gesloten",
+      "canceled": "Geannuleerd",
+      "expired": "Verlopen",
+      "approved": "Goedgekeurd",
+      "processed": "Verwerkt",
+      "authorized": "Geautoriseerd",
+      "pending": "In afwachting van autorisatie",
+      "denied": "Geweigerd",
+      "blocked": "Geblokkeerd",
+      "scheduled": "Geagendeerde",
+      "failed": "Mislukt",
+      "settled": "Afgehandeld"
+    },
+    "title": {
+      "paymentSystemToSystem": "Betaling tussen systeemrekeningen",
+      "paymentToSystem": "Betaling aan systeem",
+      "paymentToSelf": "Betaling tussen eigen rekeningen",
+      "paymentToUser": "Betaling aan gebruiker",
+      "paymentConfirmation": "Bevestiging van de betaling",
+      "pendingPayment": "Betaling ingediend voor een vergunning",
+      "processedPayment": "Betaling uitgevoerd",
+      "authorizations": "Betalingsautorisaties",
+      "authorizationHistory": "Autorisatie geschiedenis",
+      "scheduled": "Geautoriseerde betalingen",
+      "details.payment": "Betalingsdetails",
+      "details.scheduled": "Geagendeerde betalingsgegevens",
+      "details.recurring": "Periodieke betalingsdetails",
+      "details.request": "Betalingsverzoek details",
+      "details.chargeback": "Terugvordering details",
+      "details.external": "Externe betalingsdetails",
+      "details.transfer": "Betalingsoverzicht",
+      "parentTransfer": "Transfer die deze",
+      "childTransfers": "Transfers gegenereerd door deze"
+    },
+    "viewAuthorizations": "Bekijk autorisaties",
+    "viewThisTransfer": "Bekijk deze overdracht",
+    "authorizePending": "Machtigen in afwachting van betaling",
+    "authorizePending.done.stillPending": "De betaling moet nog een andere toestemming om te worden verwerkt",
+    "authorizePending.done": "De betaling is geautoriseerd",
+    "denyPending": "Ontkennen in afwachting van betaling",
+    "denyPending.done": "De betaling is geweigerd",
+    "cancelAuthorization": "Annuleren het autorisatieproces",
+    "cancelAuthorization.done": "De machtiging tot betaling is geannuleerd",
+    "blockScheduling": "Bokkeer agendering",
+    "blockScheduling.message": "Dit zal voorkomen dat geplande termijnen worden automatisch verwerkt",
+    "blockScheduling.done": "Deze geplande betaling zal niet langer worden automatisch verwerkt",
+    "unblockScheduling": "Deblokkeer agendering",
+    "unblockScheduling.message": "Dit zal hervatten van de automatische verwerking voor de geplande termijnen",
+    "unblockScheduling.done": "Deze geplande betaling wordt automatisch verwerkt",
+    "cancelScheduled": "Annuleren van de geplande betaling",
+    "cancelScheduled.message": "Dit zal definitief opheffen van deze geplande betaling",
+    "cancelScheduled.done": "Deze geplande betaling is geannuleerd",
+    "settleScheduled": "De afwikkeling van de geplande betaling",
+    "settleScheduled.message": "Dit zal permanent te markeren alle resterende termijnen als opgelost",
+    "settleScheduled.done": "Deze geplande betaling heeft plaatsgevonden",
+    "cancelRecurring": "Annuleren deze terugkerende betaling",
+    "cancelRecurring.message": "Dit zal definitief opheffen van de periodieke betaling en het voorkomen van een toekomstige gebeurtenis",
+    "cancelRecurring.done": "Deze periodieke betaling is geannuleerd",
+    "chargebackTransfer": "Deze overdracht terugvordering",
+    "chargebackTransfer.message": "Dit zal het bedrag van deze overdracht aan de betaler",
+    "chargebackTransfer.done": "Deze overdracht was terug in rekening gebracht",
+    "processInstallment": "Proces deze aflevering",
+    "processInstallment.message": "Ben je zeker dat proces nu de aflevering aantal {number}?",
+    "processInstallment.done": "De aflevering was verwerkt",
+    "settleInstallment": "Schikken deze aflevering",
+    "settleInstallment.message": "Weet u zeker dat voor de afwikkeling van de aflevering aantal {number}?",
+    "settleInstallment.done": "De aflevering werd beslecht",
+    "processFailedOccurrence": "Dit proces is mislukt exemplaar",
+    "processFailedOccurrence.message": "Ben je zeker dat proces nu het exemplaar nummer {number}?",
+    "processFailedOccurrence.done": "Het optreden was verwerkt",
+    "error": {
+      "minTime": "Een minimale periode moet worden afgewacht om een betaling van dit type te verwerken.",
+      "balance": "Onvoldoende saldo voor deze bewerking",
+      "upperLimit": "U kan niet uitvoeren van deze betaling, omdat de bovenste balans grens van de bestemming account is overschreden",
+      "daily.amount": "De maximale dagelijkse hoeveelheid {amount} werd overschreden",
+      "daily.count": "Het maximaal toegestane aantal betalingen per dag is {count}",
+      "weekly.amount": "De maximale wekelijkse bedrag van {amount} werd overschreden",
+      "weekly.count": "Het maximaal toegestane aantal betalingen per week is {count}",
+      "monthly.amount": "De maximale maandelijkse bedrag van {amount} werd overschreden",
+      "monthly.count": "Het maximaal toegestane aantal betalingen per maand is {count}"
+    }
+  },
+  "voucher": {
+    "status": {
+      "pending": "In behandeling"
+    }
+  },
+  "field": {
+    "privacy": {
+      "private.tooltip": "Dit veld is privé. Klik op toestaan om het te bekijken.",
+      "public.tooltip": "Dit veld is zichtbaar door anderen. Klik op maken."
+    },
+    "image": {
+      "upload": "Het uploaden van een nieuwe afbeelding",
+      "manage": "Opnieuw ordenen of verwijderen afbeeldingen",
+      "remove": "Deze afbeelding verwijderen",
+      "manageMessage": "U kunt slepen / neerzetten van afbeeldingen om ze opnieuw te rangschikken",
+      "manageAfterConfirm": "Na bevestiging, zorg ervoor dat u op de knop Opslaan om de wijzigingen worden toegepast."
+    },
+    "file": {
+      "upload": "Het uploaden van een nieuw bestand",
+      "manage": "Opnieuw ordenen of verwijderen van bestanden",
+      "remove": "Dit bestand verwijderen",
+      "manage.message": "U kunt slepen en neerzetten van bestanden om ze opnieuw te rangschikken"
+    },
+    "user": {
+      "placeholder.allowSearch": "Type zoeken",
+      "placeholder.principal": "Typ het gebruiker-id",
+      "contact.tooltip": "Kies uit de lijst",
+      "contact.title": "Selecteer een contact",
+      "contact.empty": "Uw contact lijst is leeg"
+    }
+  },
+  "user": {
+    "title": {
+      "myProfile": "Mijn profiel",
+      "editProfile": "Profiel bewerken",
+      "image": "Profiel afbeelding",
+      "images": "Afbeeldingsprofiel",
+      "fields": "Aangepaste profiel velden",
+      "phones": "Telefoons",
+      "addresses": "Adressen",
+      "contactInfos": "Aanvullende contacten",
+      "confirmation": "Bevestiging",
+      "registration": "Gebruikersregistratie",
+      "registration.confirmation": "Bevestiging van inschrijving",
+      "registration.done": "Inschrijving succesvol",
+      "contactList": "Contact lijst",
+      "addContact": "Een nieuw contact toevoegen",
+      "myOperators": "Operators",
+      "userOperators": "Gebruikeroperators",
+      "operatorRegistration": "Operator registratie"
+    },
+    "mobileTitle": {
+      "contactInfos": "Aanvullende contacten",
+      "contactList": "Contacten",
+      "myOperators": "Operators",
+      "userOperators": "Operators",
+      "operatorRegistration": "Nieuwe operator"
+    },
+    "group": "Groep",
+    "name": "Volledige naam",
+    "username": "Inlognaam",
+    "email": "E-mail",
+    "email.pending": "In afwachting van validatie van uw e-mailadres",
+    "operator.owner": "Operator eigenaar",
+    "operator.noGroup": "Geen groep (heeft alle rechten)",
+    "operator.registration.active": "De operator {operator} is geactiveerd.",
+    "operator.registration.inactive": "De operator {operator} is geregistreerd maar moet nog door de administratie geactiveerd worden.",
+    "operator.registration.pending": "De operator {operator} is geregistreerd, maar moet de registratie nog valideren door de e-mail te bevestigen.",
+    "operator.registration.addAnother": "Nog een operator registreren",
+    "noImage": "Nog geen profiel afbeelding",
+    "noImages": "Geen profiel foto ' s",
+    "address.define": "Definiëren adres",
+    "address.add": "Adres toevoegen",
+    "address.remove": "Verwijder dit adres",
+    "address.none": "Er zijn momenteel geen adressen",
+    "phone.add": "Telefoon toevoegen",
+    "phone.add.mobile": "Mobiele telefoon toevoegen",
+    "phone.remove": "Verwijder deze telefoon",
+    "phone.none": "Er zijn momenteel geen telefoons",
+    "contactInfo.add": "Contact toevoegen",
+    "contactInfo.remove": "Contact verwijderen",
+    "contactInfo.none": "Er zijn momenteel geen extra contacten",
+    "confirmation.message": "Opslaan in uw profiel, uw {type}",
+    "profileSaved": "Het profiel is opgeslagen",
+    "newEmailConfirmed": "Uw nieuwe e-mailadres is succesvol bevestigd",
+    "passwordConfirmation": "{type} bevestiging",
+    "securityQuestion.message": "Mocht u uw wachtwoord vergeet, moet u het correct antwoord op de vraag om het wachtwoord opnieuw instellen.<br>Dit kan worden ingesteld later, maar houd in gedachten dat de terugwinning van het wachtwoord werkt niet zonder.",
+    "securityQuestion.empty": "Laat dit veld leeg",
+    "captcha": "Visuele validatie",
+    "acceptedAgreements": "Geaccepteerde overeenkomsten",
+    "notAcceptedAgreements": "Niet geaccepteerde overeenkomsten",
+    "profile": {
+      "accountsSummary": "Overzicht van de rekeningen",
+      "noPermission": "U heeft geen toestemming om het profiel van deze gebruiker te bekijken",
+      "addContact": "Toevoegen aan contacten",
+      "addContact.done": "{user} werd toegevoegd aan uw lijst met contactpersonen",
+      "removeContact": "Verwijderen uit contacten",
+      "removeContact.done": "{user} is verwijderd uit uw lijst met contactpersonen",
+      "pay": "Volgende",
+      "viewAds": "Bekijk advertenties",
+      "viewOperators": "Bekijk operators",
+      "status.operator": "Operator status",
+      "group.operator": "Operator groep",
+      "agreements": "Overeenkomsten",
+      "accountsPaymentLimits": "Rekening betalingslimieten",
+      "references": "Referenties"
+    },
+    "registration": {
+      "group.public": "Kies de groep die u wilt om deel te nemen",
+      "skipActivationEmail": "Sla activatie e-mail over",
+      "active.public": "U bent met succes ingeschreven, en je account is nu actief.",
+      "inactive.public": "Uw account is succesvol aangemaakt.<br>u zult Echter geactiveerd moeten worden door de overheid.<br>U ontvangt een bericht wanneer uw account actief is.",
+      "pending.public": "Uw registratie is ingediend en moet worden geverifieerd.<br>U ontvangt binnenkort een e-mail met instructies over hoe u uw account kunt activeren.<br>Als u de e-mail niet ontvangt, controleer dan uw spam- of junk-folder.",
+      "pending.manager": "De gebruiker {user} is geregistreerd, maar moet de registratie nog valideren door de e-mail te bevestigen.",
+      "principal.single": "U kunt gebruik maken van uw {principal} ({value}) op {channels}",
+      "principal.multiple.preface": "U kunt inloggen met de volgende gegevens:",
+      "principal.multiple.item": "<b>{principal}</b> ({value}): kan gebruikt worden op {channels}",
+      "generatedPasswords.none": "U kunt nu inloggen met het wachtwoord dat u op de hoogte hebben gesteld.",
+      "generatedPasswords.single": "U ontvangt binnenkort een e-mail met uw gegenereerde {type}.",
+      "generatedPasswords.multiple": "U ontvangt binnenkort een e-mail met de volgende gegenereerde wachtwoorden: {types}."
+    },
+    "orderBy": {
+      "alphabeticallyAsc": "Naam (A-Z)",
+      "alphabeticallyDesc": "Naam (Z-A)"
+    }
+  },
+  "operatorGroup": {
+    "title": {
+      "list": "Operator groepen",
+      "view": "Operator groep",
+      "new": "Nieuwe operator groep",
+      "edit": "Operatorgroep bewerken",
+      "permissions": "Permissies",
+      "accountAccess": "Account toegang",
+      "generalAccount": "Algemene accountactiviteiten"
+    },
+    "mobileTitle": {
+      "list": "Operator groepen",
+      "view": "Operator groep",
+      "new": "Nieuwe groep",
+      "edit": "Groep bewerken",
+      "permissions": "Permissies",
+      "accountAccess": "Account toegang",
+      "generalAccount": "Algemene operaties"
+    },
+    "accountAccess": "Rekening zichtbaarheid",
+    "accountAccess.full": "Volledig",
+    "accountAccess.incoming": "Alleen binnenkomende betalingen",
+    "accountAccess.outgoing": "Alleen uitgaande betalingen",
+    "accountAccess.own": "Ontvangen of betaald door de operator",
+    "accountAccess.none": "Niet zichtbaar",
+    "performPayments": "Betalingen uitvoeren",
+    "performPayments.requiresAuthorization.view": ", autorisatie vereist",
+    "performPayments.maxAmountPerDay.view": ", max. {max} per dag",
+    "performPayments.requiresAuthorization": "Vereist autorisatie",
+    "performPayments.maxAmountPerDay": "Dagelijkse limiet",
+    "authorizePayments": "Autoriseer betalingen",
+    "paymentNotifications": "Betalingsmeldingen",
+    "paymentNotifications.above": "Alleen meldingen over betalingen boven",
+    "paymentNotifications.below": "Alleen meldingen over betalingen onder",
+    "chargebackPayments": "Terugboeking betalingen",
+    "restrictPaymentsToUsers": "Beperk betalingen tot",
+    "editOwnProfile": "Eigen profiel bewerken",
+    "notifications": "Meldingen",
+    "viewAdvertisements": "Advertenties bekijken",
+    "brokering": "Makelaarsacties uitvoeren",
+    "runOperations": "Operaties uitvoeren",
+    "created": "De operatorgroep is aangemaakt",
+    "saved": "De operatorgroep is opgeslagen"
+  },
+  "userStatus": {
+    "title": {
+      "status.operator": "Operator status",
+      "change.operator": "Operator status wijzigen",
+      "history.operator": "Operator status geschiedenis"
+    },
+    "mobileTitle": {
+      "status.operator": "Operator status",
+      "change.operator": "Status wijzigen",
+      "history.operator": "Status geschiedenis"
+    },
+    "active": "Actief",
+    "disabled": "Geblokkeerd",
+    "purged": "Gewist (alle privégegevens zijn gewist)",
+    "removed": "Verwijderd (privégegevens zijn niet gewist)"
+  },
+  "agreements": {
+    "agreement": "Overeenkomst",
+    "required": "Vereiste overeenkomsten",
+    "optional": "Optionele overeenkomsten",
+    "optional.saved": "De geselecteerde overeenkomsten zijn opgeslagen",
+    "accepted": "Geaccepteerd",
+    "noAccepted": "Geen geaccepteerde overeenkomsten",
+    "title": {
+      "accepted": "Geaccepteerde overeenkomsten",
+      "history": "Overeenkomsten geschiedenis"
+    },
+    "mobileTitle": {
+      "accepted": "Overeenkomsten",
+      "history": "Overeenkomsten geschiedenis"
+    }
+  },
+  "groupMembership": {
+    "confirm.aliasOperator": "Weet u zeker dat u {user} dezelfde machtigingen wilt geven als de eigenaar?",
+    "done.operator": "De operator groep is gewijzigd",
+    "title": {
+      "group.operator": "Operator groep",
+      "change.operator": "Groep wijzigen",
+      "history.operator": "Operator groep geschiedenis"
+    },
+    "mobileTitle": {
+      "group.operator": "Operator groep",
+      "change.operator": "Groep wijzigen",
+      "history.operator": "Groep geschiedenis"
+    }
+  },
+  "phone": {
+    "mobile": "Mobiele telefoon",
+    "landLine": "Land-line telefoon",
+    "name.mobile": "Mobiele telefoon naam",
+    "name.landLine": "Land-line telefoon naam",
+    "number": "Nummer",
+    "number.mobile": "Mobiel telefoonnummer",
+    "number.landLine": "Land-line telefoon nummer",
+    "phoneNumber": "Telefoonnummer",
+    "enabledSms": "SMS geactiveerd",
+    "error": {
+      "verify": {
+        "expired": "De verificatiecode is niet verzonden of is verlopen.<br> Stuur de code opnieuw naar uw telefoon en start het proces opnieuw.",
+        "invalid": "Ongeldige verificatie code",
+        "maxAttempts": "U heeft het aantal toegestane pogingen overschreden.<br>Stuur de code opnieuw naar uw telefoon en start het proces opnieuw."
+      }
+    },
+    "verify": {
+      "title": "Controleer {number} voor SMS",
+      "send": "Sturen",
+      "message": "Klik op de knop hierboven om de verificatiecode naar uw telefoon te sturen",
+      "done": "De verificatie code is verzonden naar {number}"
+    }
+  },
+  "address": {
+    "address": "Adres",
+    "line1": "Adresveld 1",
+    "line2": "Adresveld 2",
+    "buildingNumber": "Gebouw",
+    "city": "Woonplaats ",
+    "complement": "Aanvulling",
+    "country": "Land",
+    "neighborhood": "Wijk",
+    "poBox": "Post office box",
+    "region": "Regio / staat",
+    "street": "Straat",
+    "zip": "Postcode"
+  },
+  "ad": {
+    "name": "Titel",
+    "owner": "Uitgever",
+    "price": "Prijs",
+    "category": "Categorie",
+    "categories": "Categorieën",
+    "byOwner": "Door {owner}",
+    "showAllCategories": "Toon alle",
+    "rootCategory": "Hoofd-",
+    "orderBy": {
+      "date": "Laatst gepubliceerd",
+      "priceAsc": "Laagste prijs",
+      "priceDesc": "Hoogste prijs"
+    },
+    "status": {
+      "disabled": "Geblokkeerd",
+      "pending": "In behandeling"
+    }
+  },
+  "notification": {
+    "user": {
+      "account": {
+        "operator": {
+          "authorizedPaymentApprovedStillPending": "Betaling door operator goedgekeurd maar nog in afwachting van verdere autorisatie",
+          "authorizedPaymentCanceled": "Betaling door operator wachtend op goedkeuring is geannuleerd",
+          "authorizedPaymentDenied": "Betaling door operator wachtend op goedkeuring werd geweigerd",
+          "authorizedPaymentExpired": "Geautoriseerde betaling door operator is verlopen",
+          "authorizedPaymentSucceeded": "Betaling door operator wachtend op goedkeuring succesvol",
+          "paymentAwaitingAuthorization": "Betaling van operator in afwachting van autorisatie"
+        }
+      },
+      "reference": {
+        "changed": "Referentie gewijzigd",
+        "created": "Referentie ontvangen"
+      }
+    }
+  },
+  "notificationSettings": {
+    "accounts": "Rekeningen",
+    "feedbackAndReferences": "Feedback en referenties"
+  },
+  "connectedUser": {
+    "viewConnected": {
+      "operator": "Bekijk online operators"
+    }
+  },
+  "identityProvider": {
+    "login.noMatch": "Geen gebruiker gevonden met e-mail {email}. U moet inloggen met uw reguliere gebruikersnaam en wachtwoord. Na het inloggen wordt uw {app} account automatisch gekoppeld, dus de volgende keer zal de functionaliteit 'Doorgaan met {provider}' direct werken.",
+    "login.noEmail": "Kon geen e-mailadres lezen van uw {provider} -account. U moet inloggen met uw gewone gebruikersnaam en wachtwoord. Na het inloggen wordt uw {app} account automatisch gekoppeld, dus de volgende keer zal de functionaliteit 'Doorgaan met {provider}' direct werken.",
+    "disclaimer": "<b>Disclaimer</b>: Geen van uw {app} gegevens wordt gedeeld met een provider. De enige gegevens die worden gelezen van de providers zijn uw weergavenaam en e-mail, met als enige doel om sneller in te loggen op {app}."
+  },
+  "wizard": {
+    "emailVerificationCode": "E-mail verificatiecode"
+  },
+  "userAlert": {
+    "type": {
+      "givenVeryBadRefs": "Gebruiker heeft te veel 'zeer slecht' referenties gegeven",
+      "receivedVeryBadRefs": "Gebruiker heeft te veel 'zeer slecht' referenties ontvangen"
+    }
+  },
+  "document": {
+    "enable": "Inschakelen"
+  },
+  "token": {
+    "action": {
+      "activate": "Activeren",
+      "unblock": "Deblokkeren"
+    },
+    "status": {
+      "active": "Actief"
+    }
+  },
+  "reference": {
+    "set": "Referentie geven",
+    "referenceSet": "De referentie is met succes gegeven",
+    "count": {
+      "single": "(1 referentie)",
+      "multi": "({count} referenties)"
+    },
+    "title": {
+      "search": "Referenties",
+      "view": "Referentie details",
+      "set": "Stel nieuwe referentie in",
+      "edit": "Bewerk gegeven referentie"
+    },
+    "mobileTitle": {
+      "search": "Referenties",
+      "view": "Referentie details",
+      "set": "Stel nieuwe referentie in",
+      "edit": "Bewerk gegeven referentie"
+    },
+    "direction": {
+      "direction": "Richting",
+      "received": "Ontvangen",
+      "given": "Gegeven"
+    },
+    "level": {
+      "level": "Niveau",
+      "bad": "Slecht",
+      "veryBad": "Zeer slecht",
+      "good": "Goed",
+      "veryGood": "Zeer goed",
+      "neutral": "Neutraal"
+    },
+    "from": "Van",
+    "to": "Aan",
+    "notGiven": "Nog niet gegeven",
+    "value": "Waarde",
+    "allTime": "Altijd",
+    "last30Days": "Laatste 30 dagen",
+    "total": "Totaal",
+    "percentagePositive": "Percentage positief"
+  }
+}
